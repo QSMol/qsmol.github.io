@@ -7,4 +7,4 @@ permalink: /funding
 ---
 
 # Funding
-EPSRC Programme Grant information here.
+EPSRC Programme Grant UKRI2226: Quantum Many-Body Physics with Ultracold Polar Molecules.
