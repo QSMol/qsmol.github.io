@@ -55,12 +55,30 @@
   role: advisor
   institution: University
 
+- name: Carlos Bracamontes
+  role: pdra
+  institution: Durham University
+  email: carlos.bracamontes@durham.ac.uk
+  lab: tweezers
+
 - name: Arpita Das
   photo: das.jpg
   role: pdra
   institution: Durham University
   email: arpita.das@durham.ac.uk
   lab: rbcs
+
+- name: Sujit Garain
+  role: pdra
+  institution: Durham University
+  lab: tweezers
+
+- name: Ben Maddox
+  photo: maddox.png
+  role: pdra
+  institution: Durham University
+  email: benjamin.p.maddox@durham.ac.uk
+  lab: microscope
 
 - name: Jonathan Mortlock
   photo: mortlock.jpg
@@ -70,19 +88,17 @@
   email: jonathan.m.mortlock@durham.ac.uk
   links: "[ORCID](https://orcid.org/0000-0002-9438-7650)"
 
-- name: Ben Maddox
-  photo: maddox.png
+- name: Navraj Poudel
+  photo: poudel.jpg
   role: pdra
   institution: Durham University
-  email: benjamin.p.maddox@durham.ac.uk
+  lab: csyb
+
+- name: Adarsh Raghuram
+  photo: raghuram.png
+  role: pdra
+  institution: Durham University
   lab: microscope
-  
-- name: Daniel Ruttley
-  photo: ruttley.jpg
-  role: pdra
-  institution: Durham University
-  email: daniel.k.ruttley@durham.ac.uk
-  links: "[ORCID](https://orcid.org/0000-0002-7976-5430)"
 
 - name: Caleb Rich
   photo: rich.jpg
@@ -91,59 +107,12 @@
   email: caleb.j.rich@durham.ac.uk
   lab: tweezers
 
-- name: Adarsh Raghuram
-  photo: raghuram.png
+- name: Daniel Ruttley
+  photo: ruttley.jpg
   role: pdra
   institution: Durham University
-  lab: microscope
-
-- name: Carlos Bracamontes
-  role: pdra
-  institution: Durham University
-  email: carlos.bracamontes@durham.ac.uk
-  lab: tweezers
-
-- name: Sujit Garain
-  role: pdra
-  institution: Durham University
-  lab: tweezers
-
-- name: Navraj Poudel
-  photo: poudel.jpg
-  role: pdra
-  institution: Durham University
-  lab: csyb
-
-- name: Albert Tao
-  photo: tao.jpg
-  role: phd
-  institution: Durham University
-  links: "[ORCID](https://orcid.org/0009-0008-5303-2715)"
-  lab: rbcs
-
-- name: Joe Bloomer
-  photo: bloomer.png
-  role: phd
-  institution: Durham University
-  lab: csyb
-
-- name: Tom Hepworth
-  photo: hepworth.jpg
-  role: phd
-  institution: Durham University
-  lab: tweezers
-
-- name: Francesca Blondell
-  photo: blondell.jpg
-  role: phd
-  institution: Durham University
-  lab: microscope
-
-- name: Chris Cumming
-  photo: cumming.png
-  role: phd
-  institution: Durham University
-  lab: rbcs
+  email: daniel.k.ruttley@durham.ac.uk
+  links: "[ORCID](https://orcid.org/0000-0002-7976-5430)"
 
 - name: Jeff Bai
   photo: bai.jpg
@@ -151,8 +120,26 @@
   institution: Durham University
   lab: csyb
 
-- name: David Lowit
-  photo: lowit.jpg
+- name: Francesca Blondell
+  photo: blondell.jpg
+  role: phd
+  institution: Durham University
+  lab: microscope
+
+- name: Joe Bloomer
+  photo: bloomer.png
+  role: phd
+  institution: Durham University
+  lab: csyb
+
+- name: Chris Cumming
+  photo: cumming.png
+  role: phd
+  institution: Durham University
+  lab: rbcs
+
+- name: Tom Hepworth
+  photo: hepworth.jpg
   role: phd
   institution: Durham University
   lab: tweezers
@@ -161,6 +148,12 @@
   photo: li.jpg
   role: phd
   institution: Durham University
+
+- name: David Lowit
+  photo: lowit.jpg
+  role: phd
+  institution: Durham University
+  lab: tweezers
 
 - name: Rob Mellor
   photo: mellor.jpg
@@ -171,3 +164,10 @@
   photo: speakman.jpg
   role: phd
   institution: Durham University
+
+- name: Albert Tao
+  photo: tao.jpg
+  role: phd
+  institution: Durham University
+  links: "[ORCID](https://orcid.org/0009-0008-5303-2715)"
+  lab: rbcs
