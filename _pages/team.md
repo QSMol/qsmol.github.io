@@ -1,19 +1,20 @@
 ---
-title: "Team - Cornish Labs"
+title: "Team - QSMol"
 layout: gridlay
-excerpt: "Team - Cornish Labs"
+excerpt: "Team - QSMol"
 sitemap: false
 permalink: /team
 ---
 
 # Group Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/join-us) **!**
+Jump to [Investigators](#investigators), [Project Partners](#project-partners), [Advisory Board](#advisory-board), [PDRAs](#pdras), [PhD students](#phd-students).
 
-<!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
-
+## Investigators
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
+
+{% if member.role == "investigator" %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -28,33 +29,19 @@ permalink: /team
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   <h4>{{ member.name }}</h4>
-  <p> 
-  <i>{{ member.role }}</i>
-  {% if member.lab == "rbcs"%}
-  [RbCs lab]({{ site.url }}{{ site.baseurl }}/rbcs) {{member.lab_role}}
-  {% elsif member.lab == "csyb"%}
-  [CsYb lab]({{ site.url }}{{ site.baseurl }}/csyb) {{member.lab_role}}
-  {% elsif member.lab == "tweezers"%}
-  [Tweezers lab]({{ site.url }}{{ site.baseurl }}/tweezers) {{member.lab_role}}
-  {% elsif member.lab == "microscope"%}
-  [Microscope lab]({{ site.url }}{{ site.baseurl }}/microscope) {{member.lab_role}}
-  {% endif %}
+  <p>
+    <i>{{ member.institution }}</i>
   </p>
-  <p>[{{ member.email }}](mailto:{{ member.email }})</p>
+  <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
   <p>{{ member.links }}</p>
-  {% if member.thesis_link %}
-  {% if member.thesis_title %}
-  [PhD thesis: _{{member.thesis_title}}_]({{member.thesis_link}})
-  {% else %}
-  [PhD thesis]({{member.thesis_link}})
-  {% endif %}
-  {% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
 </div>
+{% endif %}
+
 {% endif %}
 
 {% endfor %}
@@ -64,8 +51,12 @@ permalink: /team
 </div>
 {% endif %}
 
+
+## Project Partners
 {% assign number_printed = 0 %}
-{% for member in site.data.students %}
+{% for member in site.data.team_members %}
+
+{% if member.role == "partner" %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -74,39 +65,25 @@ permalink: /team
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  </ul>
+  <p>
+    <i>{{ member.institution }}</i>
+  </p>
+  <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+  <p>{{ member.links }}</p>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
 </div>
+{% endif %}
+
 {% endif %}
 
 {% endfor %}
@@ -117,6 +94,132 @@ permalink: /team
 {% endif %}
 
 
+## Advisory Board
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% if member.role == "advisor" %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  <h4>{{ member.name }}</h4>
+  <p>
+    <i>{{ member.institution }}</i>
+  </p>
+  <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+  <p>{{ member.links }}</p>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
+## PDRAs
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% if member.role == "pdra" %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  <h4>{{ member.name }}</h4>
+  <p>
+    <i>{{ member.institution }}</i>
+  </p>
+  <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+  <p>{{ member.links }}</p>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
+## PhD students
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% if member.role == "phd" %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  <h4>{{ member.name }}</h4>
+  <p>
+    <i>{{ member.institution }}</i>
+  </p>
+  <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+  <p>{{ member.links }}</p>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<!-- 
 ## Alumni
 
 
@@ -184,4 +287,4 @@ permalink: /team
 {% endfor %}
 </div>
 
-</div>
+</div> -->

@@ -1,7 +1,7 @@
 ---
-title: "Join us - Cornish Labs"
+title: "Join us - QSMol"
 layout: textlay
-excerpt: "Join us - Cornish Labs"
+excerpt: "Join us - QSMol"
 sitemap: false
 permalink: /join-us
 ---

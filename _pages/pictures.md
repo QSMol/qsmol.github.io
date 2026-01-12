@@ -1,7 +1,7 @@
 ---
-title: "Pictures - Cornish Labs"
+title: "Pictures - QSMol"
 layout: textlay
-excerpt: "Pictures - Cornish Labs"
+excerpt: "Pictures - QSMol"
 permalink: /pictures/
 ---
 

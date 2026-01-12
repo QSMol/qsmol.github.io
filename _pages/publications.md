@@ -1,7 +1,7 @@
 ---
-title: "Publications - Cornish Labs"
+title: "Publications - QSMol"
 layout: gridlay
-excerpt: "Publications - Cornish Labs"
+excerpt: "Publications - QSMol"
 sitemap: false
 permalink: /publications
 ---
