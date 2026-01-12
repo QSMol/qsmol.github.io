@@ -9,6 +9,9 @@ permalink: /publications
 
 # Publications
 
+Research outputs from the grant will be listed here.
+
+<!-- 
 ## Group highlights
 
 **At the end of this page, you can find a [list of recent publications](#list-of-recent-publications) and [PhD theses](#phd-theses). All papers are also available on [arXiv](https://arxiv.org/search/physics?searchtype=author&query=Cornish%2C+S+L).**
@@ -78,4 +81,4 @@ Publications prior to 2021 can be found on [Google Scholar](https://scholar.goog
   {% if publi.thesis_link %}
   {{publi.name}}: [_{{publi.thesis_title}}_ ({{publi.thesis_year}})]({{publi.thesis_link}})
   {% endif %}
-{% endfor %}
+{% endfor %} -->
