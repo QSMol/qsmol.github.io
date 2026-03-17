@@ -10,15 +10,18 @@ permalink: /events
 
 Past and upcoming programme grant events are listed here.
 
+### Annual Meeting QSMOL + QQQS Meeting
+_6th-8th January 2027 - Birmingham_
+
+More information to follow 
+
+
+
 ### Programme Grant Kickoff Meeting
-_Wednesday 14th January 2026_
+_Wednesday 6th-8th July 2026 - Birmingham_
 
-As part of the meeting there will be a short series of talks from people involved in the new programme grant:
+More information to follow 
 
-- Dan Ruttley (Durham): _Molecules and Rydberg atoms in tweezers_
-- Alex Guttridge (Durham): _Towards Programmable Dipolar Quantum Matter with Two-Species Optical Tweezer Arrays_
-- Adarsh Raghuram (Durham): _Exploring the SSH model in synthetic dimensions_
-- Holly Middleton-Spencer (Birmingham): _TBC_
-- Sohail Dasgupta (Birmingham): _TBC_
-- Phil Gregory (Durham): _New experiments with silver containing molecules_
-- Hannah Williams (Durham): _Building a CaF quantum simulator_
+
+
+
