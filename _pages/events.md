@@ -10,7 +10,7 @@ permalink: /events
 
 Past and upcoming programme grant events are listed here.
 
-### Annual Meeting QSMOL + QQQS Meeting
+### Annual Meeting QSMol + QQQS Meeting
 _6th-8th January 2027 - Birmingham_
 
 More information to follow 
