@@ -68,11 +68,6 @@
   email: arpita.das@durham.ac.uk
   lab: rbcs
 
-- name: Sujit Garain
-  role: pdra
-  institution: Durham University
-  lab: tweezers
-
 - name: Ben Maddox
   photo: maddox.png
   role: pdra
@@ -113,6 +108,12 @@
   institution: Durham University
   email: daniel.k.ruttley@durham.ac.uk
   links: "[ORCID](https://orcid.org/0000-0002-7976-5430)"
+
+  - name: Satvika Brandarubally 
+  photo: 
+  role: pdra
+  institution: Durham University
+  links: "[ORCID](https://orcid.org/0000-0002-7165-6512)"
 
 - name: Jeff Bai
   photo: bai.jpg
@@ -172,11 +173,6 @@
   links: "[ORCID](https://orcid.org/0009-0008-5303-2715)"
   lab: rbcs
 
-- name: Satvika Brandarubally 
-  photo: 
-  role: pdra
-  institution: Durham University
-  links: "[ORCID](https://orcid.org/0000-0002-7165-6512)"
 
   - name: Lorraine Oram
   photo: 
