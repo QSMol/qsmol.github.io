@@ -20,7 +20,7 @@ More information to follow
 ### Programme Grant Kickoff Meeting
 _6th-8th July 2026 - Birmingham_
 
-More information to follow 
+More information to follow
 
 
 
