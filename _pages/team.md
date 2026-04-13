@@ -25,8 +25,6 @@ Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Pro
 <div class="col-sm-6 clearfix">
   {% if member.photo %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  {% else %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   <h4>{{ member.name }}</h4>
   {% if member.title %}
@@ -73,8 +71,6 @@ Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Pro
 <div class="col-sm-6 clearfix">
   {% if member.photo %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  {% else %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   <h4>{{ member.name }}</h4>
   {% if member.title %}
@@ -121,8 +117,6 @@ Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Pro
 <div class="col-sm-6 clearfix">
   {% if member.photo %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  {% else %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   <h4>{{ member.name }}</h4>
   {% if member.title %}

@@ -23,7 +23,7 @@
 - name: Hannah Price
   photo: price.jpg
   role: investigator
-  institution: Birmingham University
+  institution: University of Birmingham
 
 - name: Ben Sauer
   photo: sauer.jpg
@@ -88,7 +88,7 @@
 
 - name: Leticia Tarruell
   role: advisor
-  institution: ICFO
+  institution: ICFO - The Institute of Photonic Sciences
   email: leticia.tarruell@icfo.eu
 
 - name: Kaden Hazzard
@@ -98,7 +98,7 @@
 
 - name: Guido Pupillo
   role: partner
-  institution: Université de Strasbourg
+  institution: University of Strasbourg
   email: pupillo@unistra.fr
 
 - name: Ana Maria Rey
@@ -237,6 +237,7 @@
   lab: rbcs
 
 - name: Lorraine Oram
+  photo: oram.jpg
   role: officer
   institution: Durham University
   
