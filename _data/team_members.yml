@@ -110,6 +110,7 @@
   photo: bracamontes.jpg
   institution: Durham University
   email: carlos.bracamontes@durham.ac.uk
+  affiliate: true
   lab: tweezers
 
 - name: Arpita Das
@@ -117,6 +118,7 @@
   role: pdra
   institution: Durham University
   email: arpita.das@durham.ac.uk
+  affiliate: true
   lab: rbcs
 
 - name: Ben Maddox
@@ -124,6 +126,7 @@
   role: pdra
   institution: Durham University
   email: benjamin.p.maddox@durham.ac.uk
+  affiliate: true
   lab: microscope
 
 - name: Jonathan Mortlock
@@ -132,18 +135,21 @@
   institution: Durham University
   lab: microscope
   email: jonathan.m.mortlock@durham.ac.uk
+  affiliate: true
   links: "[ORCID](https://orcid.org/0000-0002-9438-7650)"
 
 - name: Navraj Poudel
   photo: poudel.jpg
   role: pdra
   institution: Durham University
+  affiliate: true
   lab: csyb
 
 - name: Adarsh Raghuram
   photo: raghuram.jpg
   role: pdra
   institution: Durham University
+  affiliate: true
   lab: microscope
 
 - name: Caleb Rich
@@ -151,6 +157,7 @@
   role: pdra
   institution: Durham University
   email: caleb.j.rich@durham.ac.uk
+  affiliate: true
   lab: tweezers
 
 - name: Daniel Ruttley
@@ -158,6 +165,7 @@
   role: pdra
   institution: Durham University
   email: daniel.k.ruttley@durham.ac.uk
+  affiliate: true
   links: "[ORCID](https://orcid.org/0000-0002-7976-5430)"
 
 - name: Satvika Brandarubally 
@@ -170,47 +178,55 @@
   photo: bai.jpg
   role: phd
   institution: Durham University
+  affiliate: true
   lab: csyb
 
 - name: Francesca Blondell
   photo: blondell.jpg
   role: phd
   institution: Durham University
+  affiliate: true
   lab: microscope
 
 - name: Joe Bloomer
   photo: bloomer.png
   role: phd
   institution: Durham University
+  affiliate: true
   lab: csyb
 
 - name: Chris Cumming
   photo: cumming.png
   role: phd
   institution: Durham University
+  affiliate: true
   lab: rbcs
 
 - name: Tom Hepworth
   photo: hepworth.jpg
   role: phd
   institution: Durham University
+  affiliate: true
   lab: tweezers
 
 - name: Ce Li
   photo: li.jpg
   role: phd
   institution: Durham University
+  affiliate: true
 
 - name: David Lowit
   photo: lowit.jpg
   role: phd
   institution: Durham University
+  affiliate: true
   lab: tweezers
 
 - name: Rob Mellor
   photo: mellor.jpg
   role: phd
   institution: Durham University
+  affiliate: true
 
 - name: Niamh Speakman
   photo: speakman.jpg
@@ -221,6 +237,7 @@
   photo: tao.jpg
   role: phd
   institution: Durham University
+  affiliate: true
   links: "[ORCID](https://orcid.org/0009-0008-5303-2715)"
   lab: rbcs
 

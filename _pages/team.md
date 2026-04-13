@@ -6,9 +6,9 @@ sitemap: false
 permalink: /team
 ---
 
-# Group Members
+# QSMol Team
 
-Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Project Partners](#project-partners), [Project Officer](#project-officer), [PDRAs](#pdras), [PhD students](#phd-students).
+Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Project Partners](#project-partners), [Project Officer](#project-officer), [QSMol PDRAs](#qsmol-pdras), [QSMol PhDs](#qsmol-phds), [Affiliated PDRAs](#affiliated-pdras), [Affiliated PhDs](#affiliated-phds).
 
 ## Investigators
 {% assign number_printed = 0 %}
@@ -195,11 +195,11 @@ Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Pro
 {% endif %}
 
 
-## PDRAs
+## QSMol PDRAs
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
-{% if member.role == "pdra" %}
+{% if member.role == "pdra" and member.affiliate != true %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -243,11 +243,107 @@ Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Pro
 {% endif %}
 
 
-## PhD students
+## QSMol PhDs
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
-{% if member.role == "phd" %}
+{% if member.role == "phd" and member.affiliate != true %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  <h4>{{ member.name }}</h4>
+  {% if member.title %}
+  <p><strong>{{ member.title | capitalize }}</strong></p>
+  {% endif %}
+  <p>
+    <i>{{ member.institution }}</i>
+  </p>
+  <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+  <p>{{ member.links }}</p>
+  {% if member.notes %}
+  <p>{{ member.notes }}</p>
+  {% endif %}
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
+## Affiliated PDRAs
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% if member.role == "pdra" and member.affiliate == true %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  <h4>{{ member.name }}</h4>
+  {% if member.title %}
+  <p><strong>{{ member.title | capitalize }}</strong></p>
+  {% endif %}
+  <p>
+    <i>{{ member.institution }}</i>
+  </p>
+  <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+  <p>{{ member.links }}</p>
+  {% if member.notes %}
+  <p>{{ member.notes }}</p>
+  {% endif %}
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
+## Affiliated PhDs
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% if member.role == "phd" and member.affiliate == true %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
