@@ -8,7 +8,7 @@ permalink: /team
 
 # Group Members
 
-Jump to [Investigators](#investigators), [Project Partners](#project-partners), [Advisory Board](#advisory-board), [Project Officer](#project-officer), [PDRAs](#pdras), [PhD students](#phd-students).
+Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Project Partners](#project-partners), [Project Officer](#project-officer), [PDRAs](#pdras), [PhD students](#phd-students).
 
 ## Investigators
 {% assign number_printed = 0 %}
@@ -29,53 +29,17 @@ Jump to [Investigators](#investigators), [Project Partners](#project-partners), 
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   <h4>{{ member.name }}</h4>
-  <p>
-    <i>{{ member.institution }}</i>
-  </p>
-  <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-  <p>{{ member.links }}</p>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-## Project Partners
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% if member.role == "partner" %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  {% if member.photo %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  {% else %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
+  {% if member.title %}
+  <p><strong>{{ member.title | capitalize }}</strong></p>
   {% endif %}
-  <h4>{{ member.name }}</h4>
   <p>
     <i>{{ member.institution }}</i>
   </p>
   <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
   <p>{{ member.links }}</p>
+  {% if member.notes %}
+  <p>{{ member.notes }}</p>
+  {% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -113,11 +77,65 @@ Jump to [Investigators](#investigators), [Project Partners](#project-partners), 
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   <h4>{{ member.name }}</h4>
+  {% if member.title %}
+  <p><strong>{{ member.title | capitalize }}</strong></p>
+  {% endif %}
   <p>
     <i>{{ member.institution }}</i>
   </p>
   <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
   <p>{{ member.links }}</p>
+  {% if member.notes %}
+  <p>{{ member.notes }}</p>
+  {% endif %}
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
+## Project Partners
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% if member.role == "partner" %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
+  {% endif %}
+  <h4>{{ member.name }}</h4>
+  {% if member.title %}
+  <p><strong>{{ member.title | capitalize }}</strong></p>
+  {% endif %}
+  <p>
+    <i>{{ member.institution }}</i>
+  </p>
+  <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+  <p>{{ member.links }}</p>
+  {% if member.notes %}
+  <p>{{ member.notes }}</p>
+  {% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -154,11 +172,17 @@ Jump to [Investigators](#investigators), [Project Partners](#project-partners), 
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   <h4>{{ member.name }}</h4>
+  {% if member.title %}
+  <p><strong>{{ member.title | capitalize }}</strong></p>
+  {% endif %}
   <p>
     <i>{{ member.institution }}</i>
   </p>
   <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
   <p>{{ member.links }}</p>
+  {% if member.notes %}
+  <p>{{ member.notes }}</p>
+  {% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -196,11 +220,17 @@ Jump to [Investigators](#investigators), [Project Partners](#project-partners), 
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   <h4>{{ member.name }}</h4>
+  {% if member.title %}
+  <p><strong>{{ member.title | capitalize }}</strong></p>
+  {% endif %}
   <p>
     <i>{{ member.institution }}</i>
   </p>
   <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
   <p>{{ member.links }}</p>
+  {% if member.notes %}
+  <p>{{ member.notes }}</p>
+  {% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -238,11 +268,17 @@ Jump to [Investigators](#investigators), [Project Partners](#project-partners), 
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/placeholder.jpg" class="img-responsive" width="25%" style="float: left" />
   {% endif %}
   <h4>{{ member.name }}</h4>
+  {% if member.title %}
+  <p><strong>{{ member.title | capitalize }}</strong></p>
+  {% endif %}
   <p>
     <i>{{ member.institution }}</i>
   </p>
   <p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
   <p>{{ member.links }}</p>
+  {% if member.notes %}
+  <p>{{ member.notes }}</p>
+  {% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}

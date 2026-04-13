@@ -6,30 +6,37 @@
   links: "[ORCID](https://orcid.org/0000-0003-1407-4126) | [ResearcherID](https://www.researcherid.com/rid/K-4966-2012) | [ResearchGate](https://www.researchgate.net/profile/Simon_Cornish) | [GoogleScholar](https://scholar.google.com/citations?user=CfmFaf4AAAAJ)"
 
 - name: Michael Tarbutt
+  photo: tarbutt.jpg
   role: investigator
   institution: Imperial College London
 
 - name: Jeremy Hutson
+  photo: hutson.jpg
   role: investigator
   institution: Durham University
 
 - name: M. J. Bhaseen
+  photo: bhaseen.jpg
   role: investigator
   institution: King's College London
 
 - name: Hannah Price
+  photo: price.jpg
   role: investigator
   institution: Birmingham University
 
 - name: Ben Sauer
+  photo: sauer.jpg
   role: investigator
   institution: Imperial College London
 
 - name: Stefan Truppe
+  photo: truppe.jpg
   role: investigator
   institution: Imperial College London
 
 - name: Hannah Williams
+  photo: williams.jpg
   role: investigator
   institution: Durham University
 
@@ -47,16 +54,72 @@
   email: alexander.guttridge@durham.ac.uk
   links: "[ORCID](https://orcid.org/0000-0001-9886-5739)"
 
-- name: P. Artner
-  role: partner
-  institution: University
 
-- name: A. D. Visor
+- name: David DeMille
   role: advisor
-  institution: University
+  institution: Johns Hopkins University
+  email: david.demille@jhu.edu
+  title: chair
+
+- name: Jurgen Stuhler
+  role: advisor
+  institution: TOPTICA Photonics
+  email: juergen.stuhler@toptica.com
+
+- name: Silke Ospelkaus
+  role: advisor
+  institution: Leibniz University Hannover
+  email: silke.ospelkaus@iqo.uni-hannover.de
+
+- name: Hanns-Christoph Nagerl
+  role: advisor
+  institution: University of Innsbruck
+  email: Christoph.Naegerl@uibk.ac.at
+
+- name: Tim Softley
+  role: advisor
+  institution: University of Birmingham
+  email: t.p.softley@bham.ac.uk
+
+- name: Andrew Daley
+  role: advisor
+  institution: University of Oxford
+  email: andrew.daley@physics.ox.ac.uk
+
+- name: Leticia Tarruell
+  role: advisor
+  institution: ICFO
+  email: leticia.tarruell@icfo.eu
+
+- name: Kaden Hazzard
+  role: partner
+  institution: Rice University
+  email: kaden@rice.edu
+
+- name: Guido Pupillo
+  role: partner
+  institution: Université de Strasbourg
+  email: pupillo@unistra.fr
+
+- name: Ana Maria Rey
+  role: partner
+  institution: JILA, University of Colorado Boulder
+  email: arey@jilau1.colorado.edu
+
+- name: Luis Santos
+  role: partner
+  institution: Leibniz University Hannover
+  email: santos@itp.uni-hannover.de
+
+- name: Immanuel Bloch
+  role: partner
+  institution: Max Planck Institute of Quantum Optics
+  email: immanuel.bloch@mpq.mpg.de
+  notes: Representing <a href="https://pasquans2.eu/">PASQuanS2 - Transforming the Landscape for Programmable Quantum Simulation in Europe</a>
 
 - name: Carlos Bracamontes
   role: pdra
+  photo: bracamontes.jpg
   institution: Durham University
   email: carlos.bracamontes@durham.ac.uk
   lab: tweezers
@@ -90,7 +153,7 @@
   lab: csyb
 
 - name: Adarsh Raghuram
-  photo: raghuram.png
+  photo: raghuram.jpg
   role: pdra
   institution: Durham University
   lab: microscope
