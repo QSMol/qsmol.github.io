@@ -58,63 +58,51 @@
 - name: David DeMille
   role: advisor
   institution: Johns Hopkins University
-  email: david.demille@jhu.edu
   title: chair
 
 - name: Jurgen Stuhler
   role: advisor
   institution: TOPTICA Photonics
-  email: juergen.stuhler@toptica.com
 
 - name: Silke Ospelkaus
   role: advisor
   institution: Leibniz University Hannover
-  email: silke.ospelkaus@iqo.uni-hannover.de
 
 - name: Hanns-Christoph Nagerl
   role: advisor
   institution: University of Innsbruck
-  email: Christoph.Naegerl@uibk.ac.at
 
 - name: Tim Softley
   role: advisor
   institution: University of Birmingham
-  email: t.p.softley@bham.ac.uk
 
 - name: Andrew Daley
   role: advisor
   institution: University of Oxford
-  email: andrew.daley@physics.ox.ac.uk
 
 - name: Leticia Tarruell
   role: advisor
   institution: ICFO - The Institute of Photonic Sciences
-  email: leticia.tarruell@icfo.eu
 
 - name: Kaden Hazzard
   role: partner
   institution: Rice University
-  email: kaden@rice.edu
 
 - name: Guido Pupillo
   role: partner
   institution: University of Strasbourg
-  email: pupillo@unistra.fr
 
 - name: Ana Maria Rey
   role: partner
   institution: JILA, University of Colorado Boulder
-  email: arey@jilau1.colorado.edu
 
 - name: Luis Santos
   role: partner
   institution: Leibniz University Hannover
-  email: santos@itp.uni-hannover.de
 
 - name: Immanuel Bloch
   role: partner
   institution: Max Planck Institute of Quantum Optics
-  email: immanuel.bloch@mpq.mpg.de
   notes: Representing <a href="https://pasquans2.eu/">PASQuanS2 - Transforming the Landscape for Programmable Quantum Simulation in Europe</a>
 
 - name: Carlos Bracamontes
