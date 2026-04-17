@@ -24,5 +24,5 @@ More information to follow
 
 
 
-### Project Related Event Quantum sensing workshop
+### Project Related Event: Quantum sensing workshop
 _14th-17th September 2026 - Durham_
