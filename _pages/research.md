@@ -7,4 +7,8 @@ permalink: /research
 ---
 
 # Research overview
-Ultracold polar molecules are an exciting new platform for quantum science and technology. The combination of rich internal structure of vibration and rotation, controllable long-range dipole-dipole interactions and strong coupling to applied electric and microwave fields has inspired many applications. These include quantum simulation of strongly interacting many-body systems, the study of quantum magnetism, quantum metrology and molecular clocks, quantum computation, precision tests of fundamental physics and the exploration of ultracold chemistry.
+Our project explores one of the biggest questions in modern science: how large groups of quantum particles behave when they interact. These behaviours shape materials, chemistry, and even the universe, but they are incredibly hard to study with today’s computers.
+
+We will build new kinds of quantum systems using ultracold polar molecules, cooled to a fraction of a degree above absolute zero. These molecules let us control every detail of the system, from how strongly they interact to how they move and organise themselves. This level of control opens the door to discovering entirely new forms of quantum matter.
+
+Using advanced tools such as optical tweezers, optical lattices and molecular Bose–Einstein condensates, we will explore quantum magnetism, exotic phases, strongly interacting fluids and other many‑body effects. By combining expertise across physics and precision measurement, we aim to reveal how complex quantum behaviour emerges and to lay foundations for future quantum technologies, including ultra‑sensitive sensors.
