@@ -93,6 +93,7 @@
   institution: University of Strasbourg
 
 - name: Ana Maria Rey
+  photo: Ana_Maria_Rey.CC04.jpg
   role: partner
   institution: JILA, University of Colorado Boulder
 
@@ -101,6 +102,7 @@
   institution: Leibniz University Hannover
 
 - name: Immanuel Bloch
+  photo: Immanuel.jpeg
   role: partner
   institution: Max Planck Institute of Quantum Optics
   notes: Representing <a href="https://pasquans2.eu/">PASQuanS2 - Transforming the Landscape for Programmable Quantum Simulation in Europe</a>
@@ -168,7 +170,7 @@
   affiliate: true
   links: "[ORCID](https://orcid.org/0000-0002-7976-5430)"
 
-- name: Satvika Bandarupally 
+- name: Satvika Bandarupally
   photo: bandarupally.jpg
   role: pdra
   institution: Durham University
