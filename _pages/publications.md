@@ -9,10 +9,9 @@ permalink: /publications
 
 # Publications
 
-Research outputs from the grant will be listed here.
+<!-- These are the research outputs from the QSMol programme. -->
 
-<!-- 
-## Group highlights
+<!-- ## Group highlights
 
 **At the end of this page, you can find a [list of recent publications](#list-of-recent-publications) and [PhD theses](#phd-theses). All papers are also available on [arXiv](https://arxiv.org/search/physics?searchtype=author&query=Cornish%2C+S+L).**
 
@@ -52,10 +51,10 @@ Research outputs from the grant will be listed here.
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
 
-## List of recent publications
+<!-- ## List of recent publications -->
 
 {% assign paper_counter = site.data.publist.size %}
 
@@ -68,11 +67,9 @@ Research outputs from the grant will be listed here.
 
 {% endfor %}
 
-Publications prior to 2021 can be found on [Google Scholar](https://scholar.google.co.uk/citations?user=CfmFaf4AAAAJ).
-
 <p> &nbsp; </p>
 
-## PhD theses
+<!-- ## PhD theses
 
 {% assign combined_members = site.data.team_members | concat: site.data.alumni %}
 {% assign thesis_by_year = combined_members | sort: "thesis_year" | reverse %}
