@@ -17,7 +17,7 @@ You can update the website in two ways:
 This repository has a GitHub Actions workflow that automatically builds and deploys the site when changes are pushed to the `gh-pages` branch.
 
 - Trigger: push to `gh-pages` (or manual run from the Actions tab).
-- Build step: `bundle exec jekyll build`.
+- Build step: `bundle exec jekyll serve`.
 - Deploy step: publishes the generated site to GitHub Pages.
 
 In practice, each push to `gh-pages` automatically rebuilds and republishes the site.
