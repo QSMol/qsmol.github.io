@@ -22,10 +22,4 @@
   highlight: 0
   lab: QSMol
 
-- title: "Hyperfine-resolved optical spectroscopy of ultracold"
-  authors: Arpita Das, Albert Li Tao, Luke M. Fernley, Fritz von Gierke, Philip D. Gregory, Simon L. Cornish, Jeremy M. Hutson, Romain Vexiau, Olivier Dulieu
-  link:
-    url:  https://doi.org/10.1103/yfs9-gghp
-    display: 
-  highlight: 0
-  lab: QSMol
+
