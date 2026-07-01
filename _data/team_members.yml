@@ -132,6 +132,15 @@
   affiliate: true
   lab: microscope
 
+- name: Holly Middleton-Spencer
+  photo: middletonspencer.jpg
+  role: pdra
+  institution: Birmingham University
+  lab: theory
+  email: h.a.j.middleton-spencer@bham.ac.uk
+  affiliate: true
+  links: "[ORCID](https://orcid.org/0000-0003-3676-0418)"
+
 - name: Jonathan Mortlock
   photo: mortlock.jpg
   role: pdra
