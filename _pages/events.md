@@ -12,9 +12,7 @@ Past and upcoming programme grant events are listed here.
 
 
 ### Programme Grant Kickoff Meeting
-_6th-8th July 2026 - Birmingham_
-
-More information to follow
+_6th-8th July 2026 - Birmingham
 
 
 
@@ -30,6 +28,7 @@ Important Dates:
 Submission deadline: 20th July.
 
 Registration deadline: 17th August
+
 
 
 ### Annual Meeting QSMol + QQQS Meeting
