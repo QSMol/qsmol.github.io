@@ -14,7 +14,41 @@ Past and upcoming programme grant events are listed here.
 ### Programme Grant Kickoff Meeting
 6th-8th July 2026 - Birmingham
 
+**Speakers and Talk Titles** 
 
+Dan Ruttley  Atom–molecule Rydberg interactions
+
+Caleb Rich  Molecular entanglement (incl. future plans)
+
+Francesca Blondell  Synthetic dimensions
+
+Jonathan Mortlock  Quantum gas microscope of molecules
+
+Ben Maddox  Designing a NaCs machine
+
+Arpita Das  Subtleties of magic‑wavelength trapping
+
+Caleb Rich  Improving entanglement of RbCs molecules in magic tweezers
+
+Philip Gregory  Magneto‑optical trapping of Rb and Ag
+	
+Chris Ho  Towards a BEC of CaF molecules
+
+Daniel Hoare  Reconfigurable tweezer array of CaF and Rb
+
+Sohail Dasgupta  Dipolar quantum matter on 2D frustrated lattices
+
+Holly Middleton‑Spencer	
+
+Joy Dutta  Controlling interactions of shielded molecules with electric & microwave fields
+
+Dylan Brown  Development of DUV laser systems for slowing & trapping AlF
+
+Joe Bhaseen  Classical and Quantum Approaches to Many-Body Dynamics
+
+Dawid Hryniuk Scalable Variational Simulation of Open and Strongly-Interacting Many-Body Quantum Systems
+
+Jonathan Mortlock	Many-body interactions in a molecular microscope
 
 
 ### Project Related Event: New Frontiers in Quantum-Enhanced Sensing and Metrology
