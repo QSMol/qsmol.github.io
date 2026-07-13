@@ -16,6 +16,7 @@ _6th-8th July 2026 - Birmingham
 
 
 
+
 ### Project Related Event: New Frontiers in Quantum-Enhanced Sensing and Metrology
 _14th-17th September 2026 - Durham_
 
@@ -28,6 +29,7 @@ Important Dates:
 Submission deadline: 20th July.
 
 Registration deadline: 17th August
+
 
 
 
