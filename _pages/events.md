@@ -12,7 +12,7 @@ Past and upcoming programme grant events are listed here.
 
 
 ### Programme Grant Kickoff Meeting
-_6th-8th July 2026 - Birmingham
+6th-8th July 2026 - Birmingham
 
 
 
