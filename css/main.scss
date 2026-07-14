@@ -89,6 +89,45 @@ pubtit {
   text-align: center;
 }
 
+#homeid .home-logo-strip {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 12px;
+}
+
+#homeid .home-logo-strip .home-logo-left {
+  float: left;
+}
+
+#homeid .home-logo-strip .home-logo-right {
+  float: right;
+}
+
+#homeid .home-logo-strip img {
+  height: 100px;
+  width: auto;
+  margin: 0;
+  border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  #homeid .home-logo-strip .home-logo-left,
+  #homeid .home-logo-strip .home-logo-right {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #homeid .home-logo-strip .home-logo-right {
+    margin-top: 12px;
+  }
+
+  #homeid .home-logo-strip img {
+    height: 72px;
+  }
+}
+
 #newsid img {
   margin-top: 6px;
   margin-bottom: 6px;
