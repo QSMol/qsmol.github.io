@@ -61,7 +61,7 @@ _6th-8th July 2026 - Birmingham_
             </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/groups/QSMol PI.jpg" alt="QSMol Investigators, July 2026." />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/groups/QSMol_PI.jpg" alt="QSMol Investigators, July 2026." />
             <div class="carousel-caption mb-4 text-light background: rgba(255, 184, 28, 0.5);">
             <p>The QSMol Investigators in July 2026.</p>
             </div>
@@ -73,7 +73,7 @@ _6th-8th July 2026 - Birmingham_
             </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/kickoff/Quiz.JPG" alt="QSMol Pub Quiz." />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/kickoff/Quiz.jpg" alt="QSMol Pub Quiz." />
             <div class="carousel-caption mb-4 text-light background: rgba(255, 184, 28, 0.5);">
             <p>A pub quiz to stimulate scientific discussions!.</p>
             </div>
