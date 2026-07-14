@@ -13,7 +13,7 @@ Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Pro
 ## Investigators
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/groups/QSMol PI.jpg" alt="QSMol team, July 2026" class="center"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/groups/QSMol_PI.jpg" alt="QSMol team, July 2026" class="center"/>
 <center><i>QSMol Investigators, July 2026</i></center>
 
 {% assign number_printed = 0 %}
