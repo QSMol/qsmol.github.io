@@ -22,19 +22,31 @@ figcaption {
 
 /* Top navigation bar */
 .navbar-inverse {
-  background-color: #007BFF; /* Blue background */
-  border-color: #007BFF;
+  background-color: #e9e9e9; /* light grey background */
+  border-color: #e9e9e9;
 }
 
 /* Navbar menu items */
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-brand {
-  color: #ffffff; /* white text */
+  color: #000000; /* dark blue text */
 }
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-brand:hover {
-  color: #e0e0e0; /* lighter grey on hover */
+  color: #023f92; /* lighter grey on hover */
+}
+
+.navbar-inverse .navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-brand .navbar-logo {
+  height: 40px;
+  width: auto;
+  margin: 0;
+  border-radius: 0;
 }
 
 /* Make dropdown menu match navbar */

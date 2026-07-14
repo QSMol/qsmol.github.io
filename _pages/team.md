@@ -11,6 +11,11 @@ permalink: /team
 Jump to [Investigators](#investigators), [Advisory Board](#advisory-board), [Project Partners](#project-partners), [Project Officer](#project-officer), [QSMol PDRAs](#qsmol-pdras), [QSMol PhDs](#qsmol-phds), [Affiliated PDRAs](#affiliated-pdras), [Affiliated PhDs](#affiliated-phds).
 
 ## Investigators
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/groups/QSMol PI.jpg" alt="QSMol team, July 2026" class="center"/>
+<center><i>QSMol Investigators, July 2026</i></center>
+
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
