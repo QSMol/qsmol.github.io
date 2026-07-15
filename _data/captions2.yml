@@ -1,9 +1,9 @@
 - path: rbcspic2/molecules.png
-  caption: Atoms that used to be molecules imaged in the lab after Stern-Gerlach seperation.
+  caption: Atoms that used to be molecules imaged in the lab after Stern-Gerlach separation.
   title: hi
 
 - path: rbcspic2/Finding magic.png
-  caption: Using Ramsey interferometry to find magic freuqencies for different rotational state mixtures.
+  caption: Using Ramsey interferometry to find magic frequencies for different rotational state mixtures.
   title: hi
 
 - path: rbcspic2/Jakepccp.png
@@ -11,7 +11,7 @@
   title: hi
 
 - path: rbcspic2/Magic spectroscopy.png
-  caption: Mapping out the electonic transitions used in magic trapping (left) and coarsely finding magic for different pairs of rotational states (right).
+  caption: Mapping out the electronic transitions used in magic trapping (left) and coarsely finding magic for different pairs of rotational states (right).
   title: hi
 
 - path: rbcspic2/Robust storage.png

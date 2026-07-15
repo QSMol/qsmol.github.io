@@ -11,7 +11,7 @@
   title: 2D MOT
 
 - path: microscopepic/stirap.jpg
-  caption: STIRAP lasers. These lasers are be used to tranfer molecules between a weakly bound state and the absolute ground state using a coherent process which keeps the molecules cold. As they address transitions in the bi-alkali molecule we use a high finesse cavity under vaccum (metal cylinder in top right) as a frequency refernce.
+  caption: STIRAP lasers. These lasers are be used to transfer molecules between a weakly bound state and the absolute ground state using a coherent process which keeps the molecules cold. As they address transitions in the bi-alkali molecule we use a high finesse cavity under vacuum (metal cylinder in top right) as a frequency reference.
   title: STIRAP lasers
 
 - path: microscopepic/control.jpg
@@ -47,11 +47,11 @@
   title: hi
 
 - path: rbcspic2/Finding magic.png
-  caption: Using Ramsey interferometry to find magic freuqencies for different rotational state mixtures [5].
+  caption: Using Ramsey interferometry to find magic frequencies for different rotational state mixtures [5].
   title: hi
 
 - path: rbcspic2/Magic spectroscopy.png
-  caption: Mapping out the electonic transitions used in magic trapping (left) and coarsely finding magic for different pairs of rotational states (right) [in preperation].
+  caption: Mapping out the electronic transitions used in magic trapping (left) and coarsely finding magic for different pairs of rotational states (right) [in preparation].
   title: hi
 
 - path: rbcspic2/Robust storage.png

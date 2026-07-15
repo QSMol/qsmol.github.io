@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-Welcome to the QSMol website! We are a collaboration of quantum physicsts based in UK who study many-body quantum systems using ultracold molecules.
+Welcome to the QSMol website! We are a collaboration of quantum physicists based in UK who study many-body quantum systems using ultracold molecules.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/groups/QSMol July 2026.jpg" alt="QSMol Kickoff Meeting, July 2026" class="center"/>
 <center><i>QSMol Kickoff Meeting, July 2026</i></center>
