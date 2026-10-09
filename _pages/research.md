@@ -54,7 +54,7 @@ Within the QSMol programme, these experiments form a crucial step in establishin
             <img src="{{ site.url }}{{ site.baseurl }}/images/research/231030_centre_for_cold_matter_044.jpg" alt="Research image" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/research/nacs.jpg" alt="Research image" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/research/nacs.JPG" alt="Research image" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/research/231030_centre_for_cold_matter_024.jpg" alt="Research image" />
